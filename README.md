@@ -21,3 +21,5 @@ docker image inspect web:v1 --format='Rozmiar obrazu: {{.Size}} bajtów'
 ![2](img/2.png)
 ### 5.Działanie aplikacji
 ![3](img/3.png)
+### 6.Link do DockerHub
+(https://hub.docker.com/repository/docker/jdrew589/zadanie1_jd/general)
