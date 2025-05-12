@@ -4,7 +4,7 @@
 ```bash
 docker build -f Dockerfile -t web:v1 .
 ```
-![1](img/Zrzuty_ekranu-1.png)
+![1](img/1.png)
 ### 2.Uruchomienie kontenera: 
 ```bash
 docker run -d -p 4567:4567 --name zadanie web:v1
@@ -18,6 +18,6 @@ docker exec -it zadanie cat log_startu.txt
 docker image inspect web:v1 --format='Liczba warstw: {{len .RootFS.Layers}}' 
 docker image inspect web:v1 --format='Rozmiar obrazu: {{.Size}} bajtów'
 ```
-![2](img/Zrzuty_ekranu-2.png)
+![2](img/2.png)
 ### 5.Działanie aplikacji
-![3](img/Zrzuty_ekranu-3.png)
+![3](img/3.png)
