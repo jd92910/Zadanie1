@@ -23,3 +23,4 @@ docker image inspect web:v1 --format='Rozmiar obrazu: {{.Size}} bajtów'
 ![3](img/3.png)
 ### 6.Link do DockerHub
 (https://hub.docker.com/repository/docker/jdrew589/zadanie1_jd/general)
+# Zadanie 2
